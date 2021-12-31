@@ -48,9 +48,9 @@
         "typescript": "^3.9.10"
     },
     "dependencies": {
-        "@react-three/drei": "^7.2.2",
+        "@react-three/drei": "^8.0.0",
         "@react-three/fiber": "^8.0.0-beta-04",
         "@types/three": "^0.130.1",
-        "three": "^0.130.1"
+        "three": "0.133.1"
     }
 }

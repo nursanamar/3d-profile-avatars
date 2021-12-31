@@ -1477,10 +1477,10 @@
   resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.3.2.tgz#0277d436e50d7a824897dd7bb880f4842fbcd0fe"
   integrity sha512-u+IK9z9Re4hjNkBYKebZr7xVDYTai2RNBsI4UPL/k0B6lCNSwuqWIXfKZUDVlMOeZHtDqayJn4xz6HcSkTj3FQ==
 
-"@react-three/drei@^7.2.2":
-  version "7.27.5"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.27.5.tgz#8559b8c6e4b1363ee93cfc1d51d936726bf1bb16"
-  integrity sha512-LD0BvN+toHnyn7TV+M50+MbtVIX1PXwHX9RXRa6wgBBDFWBRXNUQb37401+vgzqYV61/JZtxd+b4kM+OYZGpkg==
+"@react-three/drei@^8.0.0":
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.3.1.tgz#df5b83c602e82994970613697e94811490161488"
+  integrity sha512-i+O6AkBqpsdJTRx4Zy12X9E7lSFf0J/7oIH207WrkHcBPz4EGBpY2tXkpxN6Ux7QuPgOQI9KSrmT0bPtsdyXJA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/three" "^9.3.1"
@@ -8900,10 +8900,10 @@ three-stdlib@^2.6.1:
     potpack "^1.0.1"
     zstddec "^0.0.2"
 
-three@^0.130.1:
-  version "0.130.1"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.130.1.tgz#797588b2877ace31603bbbc864eb2e3022f0b3b4"
-  integrity sha512-OSPPKcGvFSiGkG3jFrwwC76PBV/ZSrGxpBbg28bW8s9GU8r/y2spNGtEXHEb/CVqo0Ctf5Lx2rVaxQZB6OasaA==
+three@0.133.1:
+  version "0.133.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.133.1.tgz#5606f4817d67a09d9212d4ccbd6826564774f8f4"
+  integrity sha512-WydohO8ll949B0FTD6MGz59Yv2Lwj8hvObg/0Heh2r42S6+tQC1WByfCNRdmG4D7+odfGod+n8JPV1I2xrboWw==
 
 throat@^5.0.0:
   version "5.0.0"
