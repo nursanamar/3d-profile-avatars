@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Object3D, Vector3 } from 'three';
-import { useGLTF } from '@react-three/drei';
+import { useGLTF } from '@react-three/drei/native';
 import useEyeBlink from '../utils/useEyeBlink';
 import useHeadMovement from '../utils/useHeadMovement';
 import { dispose, useGraph } from '@react-three/fiber';

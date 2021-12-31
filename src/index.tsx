@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import Avatar from './components/avatar';
 import { Canvas } from '@react-three/fiber';
-import { Environment } from '@react-three/drei';
+import { Environment } from '@react-three/drei/native';
 
 interface AvatarViewProps {
   url: string;
