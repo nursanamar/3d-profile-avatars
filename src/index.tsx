@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import Avatar from './components/avatar';
 import { Canvas } from '@react-three/fiber';
-import { Environment, OrbitControls } from '@react-three/drei';
+import { Environment } from '@react-three/drei';
 
 interface AvatarViewProps {
   url: string;
@@ -21,7 +21,7 @@ const defaultStyle = {
 export default function AvatarView({
   url,
   style,
-  rotateAvatar,
+  
   eyeBlink,
   headMovement,
 }: AvatarViewProps) {
@@ -32,7 +32,7 @@ export default function AvatarView({
     >
       <Suspense fallback={null}>
         <Environment preset="sunset" />
-        {rotateAvatar && <OrbitControls enablePan={false} enableZoom={false} />}
+        {/* {rotateAvatar && <OrbitControls />} */}
         <Avatar url={url} eyeBlink={eyeBlink} headMovement={headMovement} />
       </Suspense>
     </Canvas>
